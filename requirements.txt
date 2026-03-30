@@ -1,0 +1,10 @@
+# Core dependencies
+stellar-sdk>=10.0.0
+aiohttp>=3.9.0
+pydantic>=2.0.0
+
+# Development dependencies
+pytest>=7.0
+pytest-asyncio>=0.21
+pytest-cov>=4.0
+aioresponses>=0.7

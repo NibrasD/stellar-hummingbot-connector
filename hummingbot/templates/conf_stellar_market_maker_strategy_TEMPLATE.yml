@@ -1,0 +1,21 @@
+########################################################
+###     Stellar Market Maker strategy config         ###
+########################################################
+
+template_version: 1
+strategy: stellar_market_maker
+
+# The trading pair for the exchange (e.g. XLM-USDC)
+market: XLM-USDC
+
+# Bid spread percentage
+bid_spread: 1.0
+
+# Ask spread percentage
+ask_spread: 1.0
+
+# Order amount in base asset
+order_amount: 10.0
+
+# Minimum profitability percentage required before placing orders
+min_profitability: 0.1

@@ -1,0 +1,18 @@
+########################################################
+###   Stellar AMM Arbitrage strategy config          ###
+########################################################
+
+template_version: 1
+strategy: stellar_amm_arbitrage
+
+# The trading pair on the AMM (e.g. XLM-USDC)
+market_1: XLM-USDC
+
+# The trading pair on the Order Book DEX (e.g. XLM-USDC)
+market_2: XLM-USDC
+
+# Minimum profitability percentage required to execute an arbitrage trade (e.g. 0.01 for 1%)
+min_profitability: 1.0
+
+# Base asset amount to trade per arbitrage cycle
+order_amount: 10.0

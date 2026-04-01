@@ -4,7 +4,7 @@ Stellar DEX Connector for Hummingbot
 A fully integrated connector enabling algorithmic trading on the Stellar
 Decentralized Exchange (DEX) through the Hummingbot framework.
 
-Uses Stellar Soroban RPC exclusively for network interactions.
+Uses Stellar RPC for network interactions.
 Supports channel accounts for parallel transaction submission.
 """
 

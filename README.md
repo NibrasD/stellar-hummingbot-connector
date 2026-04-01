@@ -15,7 +15,7 @@ This connector integrates the **Stellar Decentralized Exchange (DEX)** with [Hum
 
 | Feature | Description |
 |---|---|
-| **Soroban RPC First** | Uses Stellar Soroban RPC exclusively for network interactions (not Horizon) |
+| **Stellar RPC First** | Uses Stellar RPC for network interactions |
 | **Channel Accounts** | Parallel transaction submission via configurable channel account pool |
 | **Full Order Lifecycle** | Submit, cancel, track, partial fill detection |
 | **Transaction Pipeline** | Queued, retry-aware transaction processing with sequence conflict handling |
